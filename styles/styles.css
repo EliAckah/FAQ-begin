@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-light-color: #F8FAFC;
+    --bg-grey-color: #D2D5DA;
+    --blue-color:#4E80EE;
+    --dark-color: #030616;
+}
+
+body {
+    font-family: 'Inter', arial;
+    font-size: 16px;
+    line-height: 2;
+    overflow-x: hidden;
+    color: var(--dark-color);
+    background: var(--bg-light-color);
+}
+
+ol {
+    padding: 0 20px;
+}
+
+ul {
+    padding: 0 20px;
+}
+
+/* ol li, ul li {
+    margin-bottom: 5px;
+} */
+
+a {
+    text-decoration: none;
+    color: var(--blue-color);
+}
+
+section .head-content {
+    background: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+section .main-body {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 60px 0px 0px 30px;
+}
+
+.main-body .track-order {
+    padding-bottom: 30px;
+}
+
+.main-body .track-order-header, .main-body .track-order-header1 {
+    margin-bottom: 15px;
+}
+
+.main-body .track-order-header1 {
+    margin-top: 30px;
+}
+
+.main-body .first-track {
+    margin-bottom: 20px;
+}
+
+.main-body .track-order-body-list {
+    margin-bottom: 20px;
+}
+
+.track-order-body-list ul {
+    max-width: 650px;
+}
+
+/* Utility Classes */
+/* Text Classes */
+.bold {
+    font-weight: 600;
+}
+
+.text-xl {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.text-l {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.text-md {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+    body {
+        margin: 0 auto;
+        
+    }
+
+    section .head-content {
+        line-height: 1.5;
+    }
+}
